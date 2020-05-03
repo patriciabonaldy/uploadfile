@@ -12,7 +12,7 @@ logger = logging.getLogger()
 
 @profile
 def main():
-    strategy = Strategy('./resource/technical_challenge_data.csv','utf-8','csv', ';', ',')  
+    strategy = Strategy(True,'./resource/origen','utf-8','JSON', ';', ',')  
     file_builder = strategy.get_strategy()
     file_builder.procesar_file()
 
