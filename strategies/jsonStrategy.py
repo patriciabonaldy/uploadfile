@@ -1,5 +1,5 @@
 import abc
-from strategies.manager_file import ManagerFile
+from manager_file import ManagerFile
 import json
 
 
